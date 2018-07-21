@@ -1,6 +1,6 @@
 // var fs = require('fs');
-var Knex =require('C:/Users/Eslava/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/knex');
-var Bookshelf= require('C:/Users/Eslava/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/bookshelf');
+var Knex =require('knex');
+var Bookshelf= require('bookshelf');
 var { getDatabaseConfig} = require ('./Config');
 
 let config = getDatabaseConfig();
@@ -17,4 +17,4 @@ let conn =  Knex({
 });
 let Orm = Bookshelf(conn);
 
-module.exports = {Orm:Orm} ;
+module.exports = Orm ;
