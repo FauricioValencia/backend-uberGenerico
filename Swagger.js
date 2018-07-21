@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   documentationPath: '/',
   basePath: '/api/',
   info: {
