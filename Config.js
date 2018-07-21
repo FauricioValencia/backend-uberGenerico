@@ -1,5 +1,5 @@
 const path = require('path');
-const nconf = require('nconf');
+const nconf = require('C:/Users/Eslava/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/nconf');
 
 console.log(__dirname);
 

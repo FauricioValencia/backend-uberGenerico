@@ -1,8 +1,8 @@
 //daniel se la suda a winstonimport * as hapi from "hapi";
 const path = require("path");
-const Inert = require("inert");
-const Vision = require("vision");
-const Jwt = require("hapi-auth-jwt2");
+const Inert = require("C:/Users/Eslava/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/inert");
+const Vision = require("C:/Users/Eslava/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/vision");
+const Jwt = require("C:/Users/Eslava/AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/hapi-auth-jwt2");
 const HapiSwagger = require('hapi-swagger');
 const { promisify } = require("util");
 const fs = require("fs");
@@ -49,4 +49,4 @@ async function init(config) {
     await server.start();//just to start the server
 }
 
-module.exports.init = init;
+module.exports = init;
