@@ -17,7 +17,4 @@ let conn =  Knex({
 });
 let Orm = Bookshelf(conn);
 
-Orm.knex.raw
-module.exports={
-    Orm
-} 
+module.exports.Orm = Orm ;

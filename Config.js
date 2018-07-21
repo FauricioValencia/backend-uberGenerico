@@ -21,6 +21,6 @@ function getDatabaseConfig(){
 }
 
 module.exports = {
-    getServerConfig,
-    getDatabaseConfig
+    getServerConfig: getServerConfig(),
+    getDatabaseConfig: getDatabaseConfig()
 }
