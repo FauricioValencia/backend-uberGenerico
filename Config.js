@@ -1,6 +1,8 @@
 const path = require('path');
 const nconf = require('nconf');
 
+console.log(__dirname);
+
 const configProvider = new nconf.Provider({
     env: true,
     store:{
@@ -10,10 +12,15 @@ const configProvider = new nconf.Provider({
 });
 
 
-export function getServerConfig(){
+function getServerConfig(){
     return configProvider.get("server");
 }
 
-export function getDatabaseConfig(){
+function getDatabaseConfig(){
     return configProvider.get("database");
+}
+
+module.exports = {
+    getServerConfig,
+    getDatabaseConfig
 }
