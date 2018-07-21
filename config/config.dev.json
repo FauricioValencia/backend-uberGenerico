@@ -2,7 +2,7 @@
     "server":{
         "port":8080,
         "host":"lo manda daniel",
-        "JwTSecret":"hola",
+        "JwTSecret":"9PxS+3ov+/PfcuZONsjNXLxkIaqHIq0jVqJlakrnuW5JE2aCYvH9eBYctpZTgjKIAoTkz6ithn7uahwTuI+hfUFSdJCSoW4mS6Jt0u4cSBuIPlLOnmpADHbfnsPbNIFl7EEthv0WezkDF8J9PpmHmDC8MeIcieigAcf9gCfhOJ7huFM0hSV7Li+Ha/aGrKCB4E9n2oIv6RJmhn3+dXgdbsqwYPMWVNXpCDXU+6vdq0TPXlHYaM0jbCUpeggnVYbAU6o1sSe8Q4h2dDApshinfmTaA6dANf7zkD/ReYJz36QGLkAhWK+pEskU1VFs2qGI8b5sU58fC16yhFjqIBH6Bw==",
         "JwWExperation":"1h"
     },
     "database":{
