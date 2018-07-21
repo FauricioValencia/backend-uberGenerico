@@ -2,6 +2,7 @@ const Bookshelf = require("../../database");
 
 
 let Conductor = Bookshelf.Model.extend({
+    idAttribute: "id",
     tableName: "conductor",
     documento: () =>{
         return this.hasOne(Documento);
@@ -9,6 +10,7 @@ let Conductor = Bookshelf.Model.extend({
 })
 
 let Documento = Bookshelf.Model.extend({
+    idAttribute: "id",
     tableName: "documento"
 })
 
